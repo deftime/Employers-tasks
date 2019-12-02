@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Bottom and button */
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .buttBlock {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.wrapper .buttBlock button {
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* Opener */
+
+.darker {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.openWrap {
+  position: absolute;
+  z-index: 2;
+  top: 0.1px;
+  display: none;
+}
+
+.formBlock {
+  width: 680px;
+  height: 1081px;
+  background-color: white;
+  margin: 50px 0 50px 0;
+  padding-top: 0.1px;
+}
+
+/* Form */
+
+.mainForm {
+  width: 643px;
+  height: 1048px;
+  border: 1px solid #2f4feb;
+  border-radius: 30px;
+  margin: 18px 0 0 21px;
+}
+
+.mainForm .cross {
+  width: 31px;
+  height: 31px;
+  float: right;
+  margin: 22px 22px 40px 0;
+  background-image: url('./images/cross.png');
+  cursor: pointer;
+}
+
+.mainForm h1 {
+  clear: both;
+  text-align: center;
+  font-size: 30px;
+  color: #2f4feb;
+  margin-bottom: 66px;
+  font-family: 'Montserrat';
+}
+
+.mainForm input {
+  box-sizing: border-box;
+  width: 537px;
+  height: 59px;
+  border: 1px solid #2f4feb;
+  padding: 22px;
+  font-size: 20px;
+  color: #bbbbbb;
+  margin: 0 0 42px 53px;
+  font-family: 'Montserrat';
+}
+
+.mainForm input[name='passSecond'] {
+  margin-bottom: 5px;
+}
+
+.mainForm input[name='phone'] {
+  margin-bottom: 5px;
+}
+
+.mainForm input[name='country'] {
+  margin-top: 20px;
+}
+
+.mainForm button {
+  display: block;
+  box-sizing: border-box;
+  width: 405px;
+  height: 68px;
+  border: none;
+  border-radius: 30px;
+  background-color: #2f4feb;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 47px auto 0 auto;
+  cursor: pointer;
+  font-family: 'Montserrat';
+}
+
+.mainForm .rezMsg {
+  text-align: center;
+  height: 1px;
+}
+
+.mainForm .phMsg {
+  margin-left: 55px;
+  height: 1px;
+  color: red;
+}
+
+/* Mobile and responsive */
+
+@media screen and (max-width: 768px) {
+  .formBlock {
+    width: 375px;
+    height: 740px;
+  }
+  .mainForm {
+    width: 335px;
+    height: 700px;
+  }
+  .mainForm .cross {
+    margin-bottom: 10px;
+  }
+  .mainForm h1 {
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .mainForm input {
+    width: 250px;
+    height: 45px;
+    margin-left: 42px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  .mainForm button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+
+  }
+}
