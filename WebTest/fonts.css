@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/HelveticaRegular.eot");
+  src: url("./fonts/HelveticaRegular.eot") format("embedded-opentype"),
+  url("./fonts/HelveticaRegular.woff") format("woff"),
+  url("./fonts/HelveticaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/HelveticaBold.eot");
+  src: url("./fonts/HelveticaBold.eot") format("embedded-opentype"),
+  url("./fonts/HelveticaBold.woff") format("woff"),
+  url("./fonts/HelveticaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Diodrum";
+  src: url("./fonts/DiodrumCyrillic-Regular.eot");
+  src: url("./fonts/DiodrumCyrillic-Regular.eot") format("embedded-opentype"),
+  url("./fonts/DiodrumCyrillic-Regular.woff") format("woff"),
+  url("./fonts/DiodrumCyrillic-Regular.woff2") format("woff2"),
+  url("./fonts/DiodrumCyrillic-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Diodrum";
+  src: url("./fonts/DiodrumCyrillic-Bold.eot");
+  src: url("./fonts/DiodrumCyrillic-Bold.eot") format("embedded-opentype"),
+  url("./fonts/DiodrumCyrillic-Bold.woff") format("woff"),
+  url("./fonts/DiodrumCyrillic-Bold.woff2") format("woff2"),
+  url("./fonts/DiodrumCyrillic-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf");
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("./fonts/Roboto-Medium.ttf");
+  src: url("./fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

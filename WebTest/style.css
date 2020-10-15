@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 71px 0 43px 0;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.linear {
+  background: linear-gradient(93.49deg, #F16500 12.04%, #FBE12B 119.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #021D65;
+  border-radius: 15px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  min-width: 140px;
+  padding: 17px 25px;
+}
+
+/*-FIRST SECTION-*/
+
+.first {
+  position: relative;
+  height: 510px;
+  border: 1px solid black;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-image: url('./images/mainBG.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.first h1 {
+  font-family: "Diodrum";
+  font-size: 70px;
+  line-height: 68px;
+  width: 773px;
+  height: 207px;
+  margin: 77px 0 0 125px;
+  letter-spacing: 3px;
+}
+
+.first a {
+  display: inline-block;
+  font-family: "Helvetica";
+  margin: 107px 0 0 145px;
+}
+
+.first img {
+  position: absolute;
+  top: 348px;
+  left: 670px;
+}
+
+/*-SECOND SECTION-*/
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 854px;
+}
+
+.second .titleSec {
+  font-family: "Diodrum";
+  font-size: 65px;
+  font-weight: 600;
+  color: #2D2971;
+  text-align: center;
+}
+
+.second .innerSec {
+  width: 670px;
+}
+
+.second .innerLine {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.innerLine .block {
+  min-width: 141px;
+  text-align: center;
+}
+
+.innerLine .block span {
+  display: block;
+  font-family: "RobotoMedium";
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+/*-THIRD SECTION-*/
+
+.third {
+  height: 540px;
+  background: url('./images/thirdBGfon.png') no-repeat left bottom,
+  url('./images/thirdBG.png') no-repeat right bottom;
+  border-top: 0.1px solid white;
+}
+
+.third .bigTitle {
+  font-family: "Diodrum";
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 63px;
+  width: 680px;
+  height: 200px;
+  margin: 40px 0 0 128px;
+}
+
+.third .descText {
+  font-family: "Helvetica";
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 40px 0 0 131px;
+}
+
+.third a {
+  display: inline-block;
+  font-family: "Helvetica";
+  margin: 50px 0 0 131px;
+}
+
+/*-FOURTH SECTION-*/
+
+.fourth {
+  background-image: url('./images/lowerBG.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 735px;
+}
+
+.fourth .wrapFour {
+  max-width: 820px;
+  margin: 188px auto 0 auto;
+}
+
+.fourth .bigTitle {
+  font-family: "Diodrum";
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 63px;
+  text-align: center;
+  color: #2D2971;
+  margin-bottom: 77px;
+}
+
+.fourth .innerFour {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth .blockCream {
+  text-align: center;
+  width: 400px;
+}
+
+.fourth .blockCream a {
+  display: inline-block;
+  margin-top: 67px;
+}
+
+.fourth .blockCream .kremTitle {
+  font-family: "Diodrum";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 55px;
+  color: #2D2971;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.fourth .blockCream .kremDesc {
+  font-family: "Helvetica";
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  height: 60px;
+}
+
+/*-SEVEN SECTION-*/
+
+.seven {
+  position: relative;
+  border-top: 0.1px solid white;
+}
+
+.seven .bigTitle {
+  font-family: "Diodrum";
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 68px;
+  color: #2D2971;
+}
+
+.seven .wrapSeven {
+  max-width: 1044px;
+  margin: 100px 0 0 125px;
+}
+
+.seven .wrapSeven > img {
+  position: absolute;
+  top: 68px;
+  left: 956px;
+}
+
+.quBlock {
+  margin-top: 60px;
+}
+
+.qu {
+  margin-top: 40px;
+}
+
+.qu .question {
+  border-bottom: 1px solid #FF671F;
+  cursor: pointer;
+}
+
+.qu .question span {
+  font-family: "Diodrum";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 55px;
+  color: #FF671F;
+  margin-left: 30px;
+}
+
+.qu .question img {
+  transition: 0.5s;
+}
+
+.qu .answer {
+  font-family: "Diodrum";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 20px 70px 0 60px;
+  overflow: hidden;
+  transition: 1s;
+  height: 0;
+}
+
+.qu .answer p:first-child {
+  margin-bottom: 20px;
+}
+
+.qu .openFirst {
+  height: 150px;
+}
+
+.qu .openSecond {
+  height: 70px;
+}
+
+.qu .openThird {
+  height: 320px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
