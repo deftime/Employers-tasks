@@ -3,5 +3,8 @@
 @use 'main';
 @use 'general';
 
+@use 'libs/anima';
+
 @use 'modules/top-text-pic';
 @use 'modules/texts-pic-spec';
+@use 'modules/pic-text';

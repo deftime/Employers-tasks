@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', ()=>{
 
   doubleTool();
+  runAnimaJS.init();
 
 })
 

@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
   padding: 0 vw(45) vw(45) vw(45);
+  overflow: hidden;
   .content {
     width: vw(545);
     padding: vw(130) vw(30) vw(35) vw(40);
@@ -92,7 +93,7 @@
       z-index: 5;
     }
     &.rounds-cut {
-      width: vw(280);
+      width: vw(275);
       top: vw(635);
       left: vw(147);
       z-index: 5;

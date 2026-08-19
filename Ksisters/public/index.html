@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./css/app.css" rel="stylesheet">
-    <script async src="./js/script.min.js"></script>
+    <script src="./js/anima.min.js" defer></script>
+    <script src="./js/script.min.js" defer></script>
     <title>Ksisters Task</title>
 </head>
 <body>
@@ -27,15 +28,15 @@
         <div class="as-h1">Помічаєш перші ознаки вікових змін?</div>
         <div class="inner">
             <div class="side texts">
-                <div class="text-box white">
+                <div class="text-box white js-anima anima-set-emoRight">
                     <span>Зниження пружності, поява тонких ліній, сухість і відчуття стягнутості можуть робити обличчя більш втомленим і тьмяним на вигляд.</span>
-                    <div class="emo-elem">
+                    <div class="emo-elem anima-dur-1 anima-delay-05">
                         <img src="./img/sad.png" alt="emoji-sad">
                     </div>
                 </div>
-                <div class="text-box color">
+                <div class="text-box color js-anima anima-set-emoLeft">
                     <span>Peptide-Tox Bor Cream допомагає підтримувати комфортний стан шкіри та дарує їй комплексний догляд. Насичена формула з 5 видами пептидів і комплексом керамідів сприяє більш гладенькому й пружному вигляду, підтримує оптимальний рівень зволоження та допомагає зберігати гідроліпідний баланс. Обличчя виглядає більш свіжим, відпочилим і доглянутим.</span>
-                    <div class="emo-elem">
+                    <div class="emo-elem anima-dur-1 anima-delay-05">
                         <img src="./img/blinks.png" alt="emoji-blinks">
                     </div>
                 </div>
@@ -46,15 +47,19 @@
                     <img src="./img/face-front.jpg" alt="bad face" class="face-front">
                 </div>
                 <div class="divider">
-                    <div class="pusher">
-<!--                        <img src="./img/push-lines.svg" alt="pusher" class="face-pusher">-->
-                    </div>
+                    <div class="pusher"></div>
                 </div>
             </div>
         </div>
         <img src="./img/leaf3-cut.png" alt="leaf3" class="fly-elem leaf-cut">
         <img src="./img/leaf3-cut-mob.png" alt="leaf3" class="fly-elem leaf-cut mobile">
         <img src="./img/leaf2.png" alt="leaf2" class="fly-elem leaf-single">
+    </section>
+    <section class="pic-text">
+        <div class="as-h1">Ефект релаксу: як це працює для твоєї шкіри?</div>
+        <div class="inner-text">Цей крем — знахідка для тих, хто любить делікатний, але помітний догляд. Він працює над тим, щоб м’яко зняти напругу з мімічних м'язів, завдяки чому нові лінії з’являються не так швидко, а обличчя виглядає більш розслабленим.<br> Секрет у спеціальних компонентах, які допомагають шкірі підтримувати об’єм там, де це потрібно. Засіб ніби «наповнює» її зсередини, роблячи поверхню гладенькою, а контури — більш чіткими. Це чудовий спосіб підтримати пружність без зайвого стресу для шкіри, просто додавши правильний етап у свій ранковий або вечірній ритуал.</div>
+        <img src="./img/banka.png" alt="cream" class="fly-elem jar">
+        <img src="./img/leaf1.png" alt="leaf1" class="fly-elem leaf-full">
     </section>
 </body>
 </html>
