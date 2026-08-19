@@ -1,0 +1,30 @@
+@use 'variables' as *;
+
+.mobile {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.btn-link {
+  display: block;
+  font-size: vw(19);
+  line-height: vw(19);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: vw(20) vw(50);
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: vw(100);
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.4s ease;
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
