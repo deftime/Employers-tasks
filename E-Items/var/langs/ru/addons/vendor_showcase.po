@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vendor_showcase\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::vendor_showcase"
+msgid "Vendor showcase"
+msgstr "Карточка продавца"
+
+msgctxt "Addons::description::vendor_showcase"
+msgid "Starter add-on that registers a custom vendor card block for product pages."
+msgstr "Базовый модуль, который регистрирует пользовательский блок карточки продавца для страницы товара."
+
+msgctxt "Languages::vendor_showcase.block"
+msgid "Vendor card"
+msgstr "Карточка продавца"
+
+msgctxt "Languages::vendor_showcase.panel_mode"
+msgid "Panel mode"
+msgstr "Вид панели"
+
+msgctxt "Languages::vendor_showcase.panel_mode.popup"
+msgid "Popup"
+msgstr "Попап"
+
+msgctxt "Languages::vendor_showcase.panel_mode.modal"
+msgid "Modal"
+msgstr "Модальное окно"
+
+msgctxt "Languages::vendor_showcase.current_mode"
+msgid "Current mode"
+msgstr "Текущий режим"

@@ -1,0 +1,36 @@
+.vendor-showcase.vs-modal {
+  display: none;
+  flex-wrap: wrap;
+  width: 500px;
+  padding: 25px;
+  background-color: #26282A;
+  .vendor-main {
+    margin-top: 20px;
+  }
+  .vendor-stats {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .object-container {
+    background-color: #26282A;
+  }
+}
+
+.ui-dialog[aria-describedby="vs-modal"] {
+  background: #26282A !important;
+  .ui-icon-closethick {
+    color: #fff !important;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .vendor-showcase.vs-modal {
+    .vendor-stats {
+      padding-left: 0;
+    }
+  }
+
+}

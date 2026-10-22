@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>vendor_showcase</id>
+    <version>1.0.0</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.18.1</min>
+        </core_version>
+    </compatibility>
+</addon>

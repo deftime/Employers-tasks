@@ -1,0 +1,38 @@
+.vendor-showcase.vs-popup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 105%;
+  margin: 0 auto;
+  padding: 25px;
+  width: 400px;
+  box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: translateY(50%);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 100;
+  .vendor-logo,
+  .vendor-stats {
+    display: none;
+  }
+  .vendor-main {
+    .vendor-top {
+      display: block;
+    }
+  }
+  &.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .vendor-showcase.vs-popup {
+    width: 100%;
+  }
+
+}

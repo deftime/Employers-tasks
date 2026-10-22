@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vendor_showcase\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::vendor_showcase"
+msgid "Vendor showcase"
+msgstr "Vendor showcase"
+
+msgctxt "Addons::description::vendor_showcase"
+msgid "Starter add-on that registers a custom vendor card block for product pages."
+msgstr "Starter add-on that registers a custom vendor card block for product pages."
+
+msgctxt "Languages::vendor_showcase.block"
+msgid "Vendor card"
+msgstr "Vendor card"
+
+msgctxt "Languages::vendor_showcase.panel_mode"
+msgid "Panel mode"
+msgstr "Panel mode"
+
+msgctxt "Languages::vendor_showcase.panel_mode.popup"
+msgid "Popup"
+msgstr "Popup"
+
+msgctxt "Languages::vendor_showcase.panel_mode.modal"
+msgid "Modal"
+msgstr "Modal"
+
+msgctxt "Languages::vendor_showcase.current_mode"
+msgid "Current mode"
+msgstr "Current mode"
